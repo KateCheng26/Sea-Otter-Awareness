@@ -62,8 +62,6 @@ div.resources {
 div.column {
    flex: 50%;
    padding: 5px;
-   max-width: 25vb;
-   max-height: 20vb;
 }
 
 div.column2 {
