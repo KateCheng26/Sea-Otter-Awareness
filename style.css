@@ -1,0 +1,117 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #8ACDEA; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+   color: #035E7B;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-decoration-line: underline;
+   text-align: center;
+}
+
+h2 {
+   text-align: center;
+   color: #A2A77F;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-decoration-line: underline;
+}
+
+p {
+   color: #002E2C;
+   text-align: center;
+   border-style: solid;
+   border-width: 2px;
+   border-radius: 5px;
+}
+
+p.facts{
+   color: #002E2C;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-style: none;
+   font-size: 20px;
+}
+
+
+
+/* STYLE IMAGES */
+
+div.main {
+   display: flex;
+}
+
+div.monterey {
+   display: flex;
+}
+
+div.resources {
+   display: flex;
+}
+
+div.column {
+   flex: 50%;
+   padding: 5px;
+}
+
+div.column2 {
+   flex: 33.33%;
+   padding: 5px;
+}
+
+img {
+   border-radius: 10%;
+   max-width: 100%;
+}
+
+img.headimg {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+/* STYLE NAV BAR */
+
+div.container {
+  text-align: right;
+}
+
+li {
+   display: inline;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+
+
+/* STYLE BUTTONS */
+
+button {
+   background-color: #002E2C;
+   color: #8ACDEA;
+   text-size: 20px;
+   padding: 10px;
+   border-radius: 5px;
+   border-style: none;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+/* ADD MORE! */
